@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.4.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>iLearn - Triangle Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head-section">
+            <div class="background2">
+                <img src="img/pexels-photo-7723725.webp" alt="">
+            </div>
+            <div class="logo-section d-flex mt-2 ml-3 bg-secondary border rounded-lg p-3">
+                <img src="img/logo.png" alt="logo">
+                <ul class="nav mt-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="page.html">Triangle Tracker</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutUs.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Digital Learning</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <form class="formOne was-validated w-75 ">
+            <h1 class="text-center text-info">Triangle Tracker</h1>
+            <h4>Enter the lengths of the sides of a triangle</h4>
+            <div class="mt-3 mb-3">
+                <label for="length1" class="form-label">Enter a number in centimeters</label>
+                <input type="number" id="length1" class="form-control" placeholder="1st Length" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <div class="mt-3 mb-3">
+                <label for="length2" class="form-label">Enter a number in centimeters</label>
+                <input type="number" placeholder="2nd Length" id="length2" class="form-control" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <div class="mt-3 mb-3">
+                <label for="length3" class="form-label">Enter a number in centimeters</label>
+                <input type="number" id="length3" class="form-control" placeholder="3rd Length" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <button class="btn btn-success" type="submit">Check</button>
+        </form>
+
+        <div class="gallery triangleOne">
+            <div class="profile ">
+                <div class="tag">This is an Equilateral Triangle</div>
+                <img src="img/etriangle.png" alt="">
+            </div>
+        </div>
+        <div class="gallery triangleTwo">
+            <div class="profile">
+                <div class="tag">This is an Isosceles Triangle</div>
+                <img src="img/isosceles.png" alt="">
+            </div>
+        </div>
+
+        <div class="gallery triangleThree">
+            <div class="profile">
+                <div class="tag">This is a Scalene Triangle</div>
+                <img src="img/scalene.webp" alt="">
+            </div>
+        </div>
+
+        <div class="gallery triangleFour">
+            <div class="profile">
+                <div class="tag">This is not a triangle</div>
+                <img src="img/not a triangle.png" alt="">
+            </div>
+        </div>
+
+        <div class="dimensions">
+            <h4>Triangle Dimensions</h4>
+            
+            <table class="table w-25">
+                
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Lengths</th>
+                    <th>Values</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>1st Length</td>
+                    <td><span class="number1"></span>cm</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>2nd Length</td>
+                    <td><span class="number2"></span>cm</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>3rd Length</td>
+                    <td><span class="number3"></span>cm</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+</body>
+</html>
