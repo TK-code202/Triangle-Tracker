@@ -1,5 +1,7 @@
 //User Interface Logic 
 $(document).ready(function() {
+
+    //Triangle Tracker Form
     $(".formOne").submit(function(event) {
         const inputOne = parseFloat($("input#length1").val());
         const inputTwo = parseFloat($("input#length2").val());
@@ -19,6 +21,7 @@ $(document).ready(function() {
             $(".triangleThree").show(1000);
         } 
 
+        //Dimensions
         $(".dimensions").show();
         $(".number1").text(inputOne);
         $(".number2").text(inputTwo);
