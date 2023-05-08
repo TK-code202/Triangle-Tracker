@@ -28,4 +28,5 @@ $(document).ready(function() {
         $(".number3").text(inputThree);
         event.preventDefault();
     });
+    
 });
