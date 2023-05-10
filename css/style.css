@@ -149,6 +149,7 @@ table {
         margin-left: 40%;
         margin-top: 6%;
         color: white;
+        cursor: pointer;
     }
 
     .logo-section {
@@ -199,6 +200,7 @@ table {
         margin-left: 24%;
         margin-top: 14%;
         color: white;
+        cursor: pointer;
     }
 
     .logo-section {
@@ -232,6 +234,7 @@ table {
         margin-left: 30%;
         margin-top: 14%;
         color: white;
+        cursor: pointer;
     }
 
     #nav {
